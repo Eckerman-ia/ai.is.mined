@@ -194,7 +194,7 @@ class Game {
       })
     }
     if (unknown == 0) return;
-    setTimeout(() => this.solveUntilDone(), 1000);
+    setTimeout(() => this.solveUntilDone(), 0);
   }
 }
 
